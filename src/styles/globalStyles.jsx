@@ -28,16 +28,15 @@ export const GlobalStyles = createGlobalStyle`
     };
 
     h1{
-        font-family: 'Playfair Display', serif;
-        font-weight: 900;
+        font-family: 'Inter';
     };
 
     h2{
-        font-family: 'Playfair Display SC', serif;
+        font-family: 'Inter';
     };
 
     h3{
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Inter';
     };
 
     a:link {
