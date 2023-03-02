@@ -3,7 +3,7 @@ import styled from "styled-components";
 export default function Orange(){
     return (
         <Container>
-            <h1>How can we put our society back in control of the economy?</h1>
+            <h1>What is the Solidarity Economy? </h1>
         </Container>
     )
 }
