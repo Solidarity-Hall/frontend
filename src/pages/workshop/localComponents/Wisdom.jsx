@@ -14,8 +14,8 @@ export default function Wisdom(){
                 <h1>NEED FOR CHANGE </h1>
                 <div className="right">
                     <h2>Even amidst an enduring climate of neoliberal, extractive capitalism, somehow alternative businesses and mission-driven projects manage to thrive (better than conventional ventures, in fact!) but still in relatively small numbers. We need to replace an old, damaging story—the magical thinking around “free markets”—with a new, integral story about mutualism and an economy of care.</h2>
-                    <h2>Despite numerous inspiring examples, an important missing element in taking these business models to scale is social and financial infrastructure, as well as financing in the form of patient capital.</h2>
-                    <h2>The Solidarity Workshop is about the spiritual foundations of this work, found in several traditions globally as well as embedded in manifestations of what has been called “the pluriverse.”</h2>
+                    <h2>Despite numerous inspiring examples, an important missing element in taking these business models to scale is <span>social and financial infrastructure</span>, as well as financing in the form of patient capital.</h2>
+                    <h2>The Solidarity Workshop is also about the spiritual foundations of this work, found in several traditions globally as well as embedded in manifestations of what has been called “the pluriverse.”</h2>
                 </div>
             </div>
         </Container>
@@ -46,5 +46,10 @@ const Container = styled.div`
         font-weight: 400;
         width: 849px;
         margin-bottom: 30px;
+        span{
+            font-weight: 700;
+            font-family: "Inter";
+        }
     }
+    
 `
