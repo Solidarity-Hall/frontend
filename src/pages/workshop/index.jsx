@@ -5,6 +5,7 @@ import Orange from "./localComponents/Orange";
 import Wisdom from "./localComponents/Wisdom";
 import World from "./localComponents/World";
 import Hands from "./localComponents/Hands";
+import Spirituality from "./localComponents/Spirituality";
 
 export default function Workshop(){
     return(
@@ -14,6 +15,7 @@ export default function Workshop(){
             <World/>
             <Wisdom/>
             <Hands/>
+            <Spirituality/>
         </Container>
     )
 };
