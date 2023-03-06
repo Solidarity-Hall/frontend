@@ -30,6 +30,7 @@ export default function Steering(){
                         ))
                     }
                 </div>
+                <div className="line"></div>
             </main>
         </Container>
     )
@@ -52,12 +53,20 @@ const Container = styled.div`
     main{
         position: relative;
     }
+    .line{
+        height: 707px;
+        width: 1px;
+        background-color: white;
+        position: absolute;
+        top: 0;
+    }
     .names{
         position: absolute;
         top: 63px;
         left: 37px;
     }
     h2{
+        width: 862px;
         font-size: 35px;
         font-weight: 400;
         span{

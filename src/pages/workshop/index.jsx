@@ -7,6 +7,7 @@ import World from "./localComponents/World";
 import Hands from "./localComponents/Hands";
 import Spirituality from "./localComponents/Spirituality";
 import Steering from "./localComponents/Steering";
+import Faq from "./localComponents/Faq";
 
 export default function Workshop(){
     return(
@@ -18,6 +19,7 @@ export default function Workshop(){
             <Hands/>
             <Spirituality/>
             <Steering/>
+            <Faq/>
         </Container>
     )
 };
