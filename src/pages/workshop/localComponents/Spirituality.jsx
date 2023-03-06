@@ -15,6 +15,11 @@ export default function Spirituality(){
                     <li>Local projects in alternative economic development in the Washington DC area.</li>
                 </ul>
             </div>
+            <div className="circles">
+                <h3>webinars publications</h3>
+                <h3>local grassroots projects</h3>
+                <h3>gatherings</h3>
+            </div>
         </Container>
     )
 };
@@ -44,7 +49,9 @@ const Container = styled.div`
             li{
                 font-size: 30px;
                 font-weight: 700;
-                width: 450px;
+                width: 550px;
+                font-family: "Inter";
+                font-weight: 700;
             }
         }
     }
@@ -59,5 +66,24 @@ const Container = styled.div`
         font-size: 30px;
         font-weight: 700;
         width: 606px;
+    }
+    .circles{
+        display: flex;
+        width: 1280x;
+        justify-content: space-around;
+        margin-top: 100px;
+    }
+    h3{
+        background-color: #D85930;
+        width: 368px;
+        height: 332px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 50px;
+        color: white;
+
     }
 `
