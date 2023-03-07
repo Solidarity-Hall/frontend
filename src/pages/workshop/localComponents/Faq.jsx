@@ -35,7 +35,7 @@ const Container = styled.div`
         position: absolute;
         height: 383px;
         width: 434px;
-        right: 0;
+        right: 32px;
         top: -190px;
     }
     .topic{

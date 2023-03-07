@@ -8,6 +8,8 @@ import Hands from "./localComponents/Hands";
 import Spirituality from "./localComponents/Spirituality";
 import Steering from "./localComponents/Steering";
 import Faq from "./localComponents/Faq";
+import Partners from "./localComponents/Partners";
+import Donate from "./localComponents/Donate";
 
 export default function Workshop(){
     return(
@@ -20,6 +22,8 @@ export default function Workshop(){
             <Spirituality/>
             <Steering/>
             <Faq/>
+            <Partners/>
+            <Donate/>
         </Container>
     )
 };
