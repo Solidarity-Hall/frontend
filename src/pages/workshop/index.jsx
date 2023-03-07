@@ -10,6 +10,7 @@ import Steering from "./localComponents/Steering";
 import Faq from "./localComponents/Faq";
 import Partners from "./localComponents/Partners";
 import Donate from "./localComponents/Donate";
+import Contact from "./localComponents/Contact";
 
 export default function Workshop(){
     return(
@@ -24,6 +25,7 @@ export default function Workshop(){
             <Faq/>
             <Partners/>
             <Donate/>
+            <Contact/>
         </Container>
     )
 };
