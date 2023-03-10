@@ -55,4 +55,33 @@ const Container = styled.div`
             font-style: italic;
         }
     }
+    @media (max-width: 1280px) {
+        width: 360px;
+        padding-bottom: 50px;
+        img{
+            width: 300px;
+        }
+        .content{
+            flex-direction: column;
+            width: 360px;
+            h1{
+                font-size: 45px;
+                width: 360px;
+                text-align: center;
+            } 
+            .right{
+                width: 360px;
+                h2{
+                    font-size: 35px;
+                    width: 360px;
+                    text-align: center;
+                }
+                h3{
+                    font-size: 25px;
+                    padding: 10px 10px 0 10px;
+                }
+            }
+        }
+        
+    }
 `

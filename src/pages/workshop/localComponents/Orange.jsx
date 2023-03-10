@@ -22,4 +22,11 @@ const Container = styled.div`
         width: 1000px;
         text-align: center;
     }
+    @media (max-width: 1280px) {
+        width: 360px;
+        height: 150px;
+        h1{
+            font-size: 35px;
+        }
+    }
 `

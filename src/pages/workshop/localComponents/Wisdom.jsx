@@ -51,5 +51,14 @@ const Container = styled.div`
             font-family: "Inter";
         }
     }
-    
+    @media (max-width: 1280px) {
+        width: 360px;
+        .text{
+            width: 360px;
+            flex-direction: column;
+        }
+        h2{
+            width: 360px;
+        }
+    }
 `
