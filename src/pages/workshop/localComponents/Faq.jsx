@@ -69,6 +69,12 @@ const Container = styled.div`
         }
         .topic{
             margin-bottom: 30px;
+            h1{
+                font-size: 30px;
+            }
+            h2{
+                font-size: 25px;
+            }
         }
     }
 `

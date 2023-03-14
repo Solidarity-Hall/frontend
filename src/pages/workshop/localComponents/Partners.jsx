@@ -136,6 +136,7 @@ const Container = styled.div`
             flex-direction: row;
             flex-wrap: wrap;
             padding: 10px;
+            justify-content: center;
         }
         img{
             position: static;
