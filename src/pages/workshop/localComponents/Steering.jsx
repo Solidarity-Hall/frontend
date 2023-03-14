@@ -88,11 +88,16 @@ const Container = styled.div`
             flex-direction: column;
             align-items: center;
             width: 100%;
+            margin-top: -20px;
             h2{
                 width: 90%;
                 max-width: 100vw;
                 margin-bottom: 10px;
                 border-bottom: 1px solid black;
+                font-size: 25px;
+                span{
+                    font-size: 25px;
+                }
             }
         }
     }
