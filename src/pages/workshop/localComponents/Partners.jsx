@@ -35,9 +35,9 @@ export default function Partners(){
                 <a href="https://www.start.coop/" target="_blank" rel="noreferrer">
                     <img className="p7" src={p7} alt="start.coop"/>
                 </a>
-                {/* <a> */}
+                <a href="https://www.colorado.edu/lab/medlab/" target="_blank" rel="noreferrer"> 
                     <img className="p8" src={p8} alt="partner"/>
-                {/* </a> */}
+                </a>
             </div>
             <h2>As a nonprofit organization, we rely entirely on community support. None of our efforts would be possible without the help of donors, volunteers, and supportive community members like you. Check out our donation page to contribute and get us one step closer to our mission! </h2>
         </Container>
@@ -118,5 +118,29 @@ const Container = styled.div`
         width: 266px;
         top: 702px;
         right: 369px;
+    }
+    @media (max-width: 1280px) {
+        width: 100%;
+        h1{
+            width: auto;
+        }
+        h2{
+            width: 100%;
+            margin-left: 2px;
+            font-size: 30px;
+        }
+        .part{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding: 10px;
+        }
+        img{
+            position: static;
+            max-width: 80vw;
+            height: auto;
+        }
     }
 `

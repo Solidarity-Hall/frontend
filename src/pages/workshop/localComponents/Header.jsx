@@ -56,29 +56,35 @@ const Container = styled.div`
         }
     }
     @media (max-width: 1280px) {
-        width: 360px;
+        width: 100%;
         padding-bottom: 50px;
         img{
             width: 300px;
         }
         .content{
             flex-direction: column;
-            width: 360px;
+            width: 100vw;
+            display: flex;
+            align-items: center;
             h1{
                 font-size: 45px;
-                width: 360px;
+                width: 100vw;
                 text-align: center;
             } 
             .right{
-                width: 360px;
+                width: 100vw;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
                 h2{
                     font-size: 35px;
-                    width: 360px;
+                    width: 100vw;
                     text-align: center;
                 }
                 h3{
                     font-size: 25px;
                     padding: 10px 10px 0 10px;
+                    text-align: center;
                 }
             }
         }

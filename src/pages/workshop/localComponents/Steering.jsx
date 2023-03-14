@@ -75,4 +75,25 @@ const Container = styled.div`
             font-weight: 700;
         }
     }
+    @media (max-width: 1280px) {
+        width: 100%;
+        padding-bottom: 80px;
+        img{
+            display: none;
+        }
+        .names{
+            position: relative;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            h2{
+                width: 90%;
+                max-width: 100vw;
+                margin-bottom: 10px;
+                border-bottom: 1px solid black;
+            }
+        }
+    }
 `

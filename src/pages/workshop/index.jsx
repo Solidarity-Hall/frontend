@@ -35,4 +35,7 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media (max-width: 1280px) {
+        width: 100vw;
+    }
 `

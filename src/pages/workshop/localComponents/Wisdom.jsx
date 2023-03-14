@@ -52,13 +52,20 @@ const Container = styled.div`
         }
     }
     @media (max-width: 1280px) {
-        width: 360px;
+        max-width: 100%;
+        width: 100%;
+        padding: 0 10px 0 0;
         .text{
-            width: 360px;
+            width: 100%;
             flex-direction: column;
+            padding: 10px;
+        }
+        h1{
+            font-size: 40px;
         }
         h2{
-            width: 360px;
+            width: 100%;
+            margin-bottom: 10px;
         }
     }
 `

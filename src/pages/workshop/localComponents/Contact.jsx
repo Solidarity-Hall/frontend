@@ -51,4 +51,19 @@ const Container = styled.div`
         color: white;
         font-size: 100px;
     }
+    @media (max-width: 1280px) {
+        width: 100%;
+        flex-direction: column;
+        padding: 20px;
+        h1{
+            width: 100%;
+            font-size: 35px;
+        }
+        h2{
+            font-size: 35px;
+        }
+        ion-icon{
+            font-size: 70px;
+        }
+    }
 `

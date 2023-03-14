@@ -54,4 +54,21 @@ const Container = styled.div`
         font-weight: 400;
         text-align: left;
     }
+    @media (max-width: 1280px) {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        img{
+            height: auto;
+            max-width: 80vw;
+            position: relative;
+            top: 0;
+            margin-bottom: 20px;
+        }
+        .topic{
+            margin-bottom: 30px;
+        }
+    }
 `

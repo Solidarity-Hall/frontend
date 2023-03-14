@@ -5,7 +5,7 @@ export default function Spirituality(){
         <Container>
             <div className="top">
                 <h1>SPIRITUALITY & PRACTICE</h1>
-                <h2> Our goals:</h2>
+                <h2 className="web"> Our goals:</h2>
             </div>
             <div className="bottom">
                 <h2>The Solidarity Workshop is a community of practitioners who are coming together in order to finally scale this work in the U.S. We recognize this as a moment of spiritual hunger, of longing for the kind of human connection which makes the energies of mutualism and cooperativism possible.</h2>
@@ -85,5 +85,58 @@ const Container = styled.div`
         font-size: 50px;
         color: white;
 
+    }
+    @media (max-width: 1280px) {
+        width: 100%;
+        .web{
+            display: none;
+        }
+        .bottom{
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            h2{
+                margin-left: 0;
+                font-weight: 400;
+            }
+            ul{
+                margin-left: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                li{
+                    width: 70%;
+                    font-size: 25px;
+                    font-weight: 400;
+                }
+            }
+        }
+        .top{
+            justify-content: center;
+            width: 100%;
+        }
+        h1{
+            width: 80vw;
+            margin-top: 30px;
+            margin-left: 0;
+            font-size: 40px;
+            text-align: center;
+        }
+        h2{
+            width: 90vw;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 25px;
+        }
+        .circles{
+            flex-direction: column;
+            align-items: center;
+            h3{
+                margin-bottom: 8px;
+                width: 300px;
+                height: 300px;
+                font-size: 40px;
+            }
+        }
     }
 `

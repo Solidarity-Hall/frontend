@@ -23,7 +23,7 @@ const Container = styled.div`
         text-align: center;
     }
     @media (max-width: 1280px) {
-        width: 360px;
+        width: 100%;
         height: 150px;
         h1{
             font-size: 35px;

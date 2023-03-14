@@ -16,7 +16,7 @@ const Container = styled.div`
     }
     @media (max-width: 1280px) {
         img{
-            width: 360px;
+            width: 100%;
         }
     }
 `
