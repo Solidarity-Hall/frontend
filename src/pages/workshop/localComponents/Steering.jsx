@@ -14,7 +14,10 @@ const comittee = [
     { name: "Gary Gardner", role: "author, The Earth Cries Out"},
     { name: "Sam Rocha", role: "University of British Columbia"},
     { name: "Grace Potts", role: "Solidarity Hall"},
-    { name: "Jamie Kralovec", role: "Georgetown University"}
+    { name: "Jamie Kralovec", role: "Georgetown University"},
+    { name:"Edgar Rivera Colon", role:"University of Southern California"},
+    { name: "Shalonda Ingraham", role: "Born Brown: All Rights Reserved"},
+    { name: "Matthew Epperson", role: "Savvy Coop"}
 ]
 
 export default function Steering(){
@@ -67,11 +70,11 @@ const Container = styled.div`
     }
     h2{
         width: 862px;
-        font-size: 35px;
+        font-size: 31px;
         font-weight: 400;
         span{
             font-family: "Inter";
-            font-size: 35px;
+            font-size: 31px;
             font-weight: 700;
         }
     }
