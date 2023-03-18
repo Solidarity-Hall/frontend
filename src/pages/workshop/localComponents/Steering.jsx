@@ -16,7 +16,7 @@ const comittee = [
     { name: "Grace Potts", role: "Solidarity Hall"},
     { name: "Jamie Kralovec", role: "Georgetown University"},
     { name:"Edgar Rivera Colon", role:"University of Southern California"},
-    { name: "Shalonda Ingraham", role: "Born Brown: All Rights Reserved"},
+    { name: "Shalonda Ingram", role: "Born Brown: All Rights Reserved"},
     { name: "Matthew Epperson", role: "Savvy Coop"}
 ]
 
