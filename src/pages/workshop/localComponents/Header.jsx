@@ -8,7 +8,7 @@ export default function Header(){
             <img src={image} alt="S and W"/>
             <div className="content">
                 <h1>The Solidarity Workshop</h1>
-                <h2>Sacred geometry: The polyhedron in the context of globalization</h2>
+                <h2>A wisdom exchange <br/> and a community of practice</h2>
             </div>
         </Container>
     )
@@ -23,7 +23,7 @@ const Container = styled.div`
     flex-direction: column;
     padding-bottom: 50px;
     img{
-        width: 570px;
+        width: 430px;
     }
     .content{
         margin-top: 50px;
@@ -42,7 +42,7 @@ const Container = styled.div`
             font-weight: 700;
             font-size: 45px;
             margin-bottom: 25px;
-            width: 70%;
+            width: 50%;
             text-align: center;
         }
     }
