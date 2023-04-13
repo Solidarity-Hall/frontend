@@ -16,7 +16,7 @@ const comittee = [
     { name: "Grace Potts", role: "Solidarity Hall"},
     { name: "Jamie Kralovec", role: "Georgetown University"},
     { name:"Edgar Rivera Colon", role:"University of Southern California"},
-    { name: "Shalonda Ingram", role: "Born Brown: All Rights Reserved"},
+    { name: "Shalonda Ingram", role: "Nursha Project, Born Brown: All Rights Reserved."},
     { name: "Matthew Epperson", role: "Savvy Coop"}
 ]
 
@@ -69,7 +69,7 @@ const Container = styled.div`
         left: 37px;
     }
     h2{
-        width: 862px;
+        width: 800px;
         font-size: 31px;
         font-weight: 400;
         span{
